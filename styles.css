@@ -52,6 +52,11 @@ body{
     font-family: "Michroma", sans-serif;
 }
 
+.logo img {
+    display: block;
+    height: 50px;
+}
+
 .learn_more:hover{
     text-decoration: underline;
 }
