@@ -46,3 +46,8 @@ body{
     margin:0;
     font-family: "Michroma", sans-serif;
 }
+
+.logo img {
+    display: block;
+    height: 50px; /* or whatever your intended size is */
+}
