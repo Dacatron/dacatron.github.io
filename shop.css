@@ -25,6 +25,11 @@ body{
     font-family: "Michroma", sans-serif;
 }
 
+.logo img {
+    display: block;
+    height: 50px;
+}
+
 .nav{
     font-family: "Michroma", sans-serif;
     position:absolute;
