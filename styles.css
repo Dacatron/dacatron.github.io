@@ -53,8 +53,9 @@ body{
 }
 
 .logo img {
+    height: 40px;
+    width: auto;
     display: block;
-    height: 50px;
 }
 
 .learn_more:hover{
