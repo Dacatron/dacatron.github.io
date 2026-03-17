@@ -1,0 +1,208 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    background-color:#4C566A;
+    padding:35px 40px;
+    font-family:"Lato", sans-serif;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    position:relative;
+}
+
+.shop_now{
+    font-family:"Lato", sans-serif;
+    padding: 15px 25px;
+    margin: 10px 10px;
+    background-color: #FF6B00;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+.lets_find_out{
+    color:#FF6B00;
+    font-family:"Lato", sans-serif;
+}
+
+.lets_find_out:hover{
+    color:#ff6a00e6;
+    font-family:"Lato", sans-serif;
+}
+
+.shop_now a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+.shop_now:hover{
+    color:rgb(0, 0, 0);
+    background-color: #ff6a00ee;
+}
+
+.logo h1{
+    margin:0;
+    font-family: "Michroma", sans-serif;
+}
+
+.learn_more:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    font-family: "Michroma", sans-serif;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:50px;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+}
+
+.nav a:hover{
+    color:#FF6B00;
+}
+
+.customizations_unlocked{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 30, 55);
+    color: white;
+    padding: 20px 90px;
+    font-size: 30px;
+    min-height: 70vh;;
+}
+
+.engineered_for_excellence{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(27, 42, 65);
+    color: white;
+    padding: 20px 90px;
+    font-size: 30px;
+    min-height: 60vh;;
+}
+
+.description{
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding: 20px 90px;
+    font-size: 40px;
+    min-height: 60vh;;
+}
+
+.nylon_selected{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 30, 55);
+    color: white;
+    padding: 20px 90px;
+    font-size: 30px;
+    min-height: 60vh;;
+}
+
+.our_mission{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(27, 42, 65);
+    color: white;
+    padding: 20px 90px;
+    font-size: 30px;
+    min-height: fit-content;
+}
+
+.story_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+/* Left side (Our Story) */
+.our_story {
+    flex: 1;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(27, 42, 65);
+    color: white;
+    font-size: 28px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* Right side (Image) */
+.test_picture {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Image styling */
+.test_picture img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.our_story_second_paragraph{
+    font-family: "Lato", sans-serif;
+    background-color: rgb(27, 42, 65);
+    color: white;
+    padding: 20px 90px;
+    font-size: 28px;
+    min-height: fit-content;
+}
+
+@media (max-width: 768px){
+
+    .header{
+        flex-direction:column;
+        align-items:center;
+        padding:20px 10px;
+        font-size: 14px;
+    }
+
+    .nav{
+        position:static;
+        transform:none;
+        margin-top:15px;
+        gap:25px;
+        font-size: 15px;
+    }
+
+    .nav a{
+        color:white;
+        text-decoration:none;
+        font-size:15px;
+    }
+
+    .nav a:hover{
+        color:#FF6B00;
+    }
+
+    .customizations_unlocked{
+        font-family: "Michroma", sans-serif;
+        font-weight: 400;
+        background-color: rgb(10, 30, 55);
+        color: white;
+        padding: 20px 25px;
+        font-size: 10px;
+        min-height: 60vh;;
+    }
+}

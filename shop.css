@@ -1,0 +1,125 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    background-color:#4C566A;
+    padding:35px 40px;
+    font-family:"Lato", sans-serif;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    position:relative;
+}
+
+.learn_more:hover{
+    text-decoration: underline;
+}
+
+.logo h1{
+    margin:0;
+    font-family: "Michroma", sans-serif;
+}
+
+.nav{
+    font-family: "Michroma", sans-serif;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:50px;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+}
+
+.nav a:hover{
+    color:#FF6B00;
+}
+
+.shop_all{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 30, 55);
+    color: #FF6B00;
+    padding-top: 50px;
+    font-size: 60px;
+    min-height: 20vh;;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.product_container{
+    font-family: "Michroma", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 42, 77);
+    min-height: 80vh;
+}
+
+.product{
+    font-family: "Michroma", sans-serif;
+    font-size: 35px;
+    display: flex;
+    background-color: rgb(10, 30, 55);
+    color: white;
+    border: #FF6B00 4px solid;
+    border-radius: 20px;
+    width: 90%;
+    padding: 20px 40px;
+    margin: 5px 5px;
+    min-height: 600px;
+    height: 70%;
+    flex-direction: column;
+}
+
+.product a{
+    color:white;
+    text-decoration:none;
+    border: 2px;
+    padding: auto;
+    
+}
+
+.product_pic img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.product:hover{
+    background-color: rgb(12, 35, 63);
+    color:#FF6B00;
+    text-decoration: underline;
+}
+
+.price{
+    font-size: 20px;
+    justify-content: flex-end;
+}
+
+.JBL_cover_container{
+    font-family: "Michroma", sans-serif;
+    font-size: 30px;
+    background-color: rgb(14, 42, 77);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details{
+    font-family: "Michroma", sans-serif;
+    font-size: 20px;
+    color:white;
+    align-items: left;
+    width: 90%;
+}
