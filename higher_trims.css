@@ -1,0 +1,56 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    background-color:#4C566A;
+    padding:35px 40px;
+    font-family:"Lato", sans-serif;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    position:relative;
+}
+
+
+.learn_more_container{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 30, 55);
+    color: white;
+    padding: 20px 90px;
+    font-size: 30px;
+    min-height: fit-content;
+    
+}
+
+.nav{
+    font-family: "Michroma", sans-serif;
+    position:absolute;
+    left:30%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:50px;
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.nav a:hover{
+    color:#FF6B00;
+    text-decoration: underline;
+}
+
+.logo h1{
+    margin:0;
+    font-family: "Michroma", sans-serif;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
