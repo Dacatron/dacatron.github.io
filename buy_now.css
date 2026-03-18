@@ -1,0 +1,47 @@
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    background-color:#4C566A;
+    padding:35px 40px;
+    font-family:"Lato", sans-serif;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    position:relative;
+}
+
+.buy_now_title{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 30, 55);
+    color: #FF6B00;
+    padding: 20px 90px;
+    font-size: 30px;
+    min-height: 70vh;;
+}
+
+.description{
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding: 20px 90px;
+    font-size: 40px;
+    min-height: 60vh;;
+}
+
+.email{
+    color: #FF6B00;
+    text-decoration: none;
+}
+
+.steps{
+    font-size: 30px;
+    background-color: rgb(14, 42, 77);
+    padding:30px;
+    border-radius: 20px;
+}
