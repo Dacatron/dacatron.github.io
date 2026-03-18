@@ -117,3 +117,11 @@ body{
     width: auto;
     display: block;
 }
+
+.compatible_trims{
+    text-decoration:none;
+}
+
+.compatible_trims:hover{
+    text-decoration:underline;
+}
