@@ -66,10 +66,12 @@ body{
 
 .product_container{
     font-family: "Michroma", sans-serif;
-    display: flex;
-    justify-content: center;
+    margin: 10px;
     background-color: rgb(14, 42, 77);
     min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .product{
@@ -80,7 +82,6 @@ body{
     color: white;
     border: #FF6B00 4px solid;
     border-radius: 20px;
-    width: 90%;
     padding: 20px 40px;
     margin: 5px 5px;
     min-height: 600px;
