@@ -54,3 +54,36 @@ body{
     width: auto;
     display: block;
 }
+
+ 
+/* =====================
+   MOBILE STYLES
+   ===================== */
+@media (max-width: 768px) {
+ 
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 20px;
+        gap: 12px;
+    }
+ 
+    .nav {
+        position: static;
+        transform: none;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+ 
+    .nav a {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+    }
+ 
+    .learn_more_container {
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+}
+ 
