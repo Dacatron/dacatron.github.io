@@ -160,3 +160,79 @@ body{
 .compatible_trims:hover{
     text-decoration:underline;
 }
+
+/* =====================
+   MOBILE STYLES
+   ===================== */
+@media (max-width: 768px) {
+
+    /* Header: stack vertically */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 20px;
+        gap: 12px;
+    }
+
+    /* Product name: tighten padding and scale font */
+    .product_name {
+        padding: 16px 20px;
+        font-size: 20px;
+    }
+
+    /* Stack image on top, description below */
+    .product_container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    /* Description fills full width, loses the one-sided border radius */
+    .description {
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 10px;
+        min-height: unset;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Image panel: remove the oversized padding and left-only borders */
+    .product_pic {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: #4C566A 4px solid;
+        border-radius: 0;
+        padding: 24px 20px;
+        justify-content: center;
+    }
+
+    .product_pic img {
+        max-width: 100%;
+    }
+
+    /* Gallery heading */
+    .gallery {
+        padding: 16px 20px;
+        font-size: 20px;
+    }
+
+    /* Gallery images */
+    .image {
+        font-size: 20px;
+        padding: 16px 20px;
+        margin: 0;
+        height: auto;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+    /* Shop now button */
+    .shop_now {
+        font-size: 16px;
+        padding: 12px 18px;
+        margin: 8px 0;
+    }
+}
