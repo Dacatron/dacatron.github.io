@@ -82,6 +82,26 @@ body{
     color:#FF6B00;
 }
 
+.nav_right{
+    font-family: "Michroma", sans-serif;
+    position:absolute;
+    right:150px;
+    transform:translateX(50%);
+    display:flex;
+    gap:50px;
+    color:#FF6B00;
+}
+
+.nav_right a{
+    color:#FF6B00;
+    text-decoration:none;
+    font-size:25px;
+}
+
+.nav_right a:hover{
+    text-decoration: underline;
+}
+
 .customizations_unlocked{
     font-family: "Michroma", sans-serif;
     font-weight: 400;
