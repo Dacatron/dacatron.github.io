@@ -173,7 +173,9 @@ body{
         padding: 16px 20px;
         gap: 12px;
     }
-
+    .product_title {
+        font-size: 30px;
+    }
     /* Product name: tighten padding and scale font */
     .product_name {
         padding: 16px 20px;
