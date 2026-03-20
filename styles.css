@@ -154,7 +154,7 @@ body{
 .our_mission{
     font-family: "Michroma", sans-serif;
     font-weight: 400;
-    background-color: rgb(27, 42, 65);
+    background-color: rgb(10, 30, 55);
     color: white;
     padding: 20px 90px;
     font-size: 30px;
@@ -173,7 +173,7 @@ body{
 .our_story {
     flex: 1;
     font-family: "Lato", sans-serif;
-    background-color: rgb(27, 42, 65);
+    background-color: rgb(10, 30, 55);
     color: white;
     font-size: 28px;
 
@@ -200,7 +200,7 @@ body{
 
 .our_story_second_paragraph{
     font-family: "Lato", sans-serif;
-    background-color: rgb(27, 42, 65);
+    background-color: rgb(10, 30, 55);
     color: white;
     padding: 20px 90px;
     font-size: 28px;
