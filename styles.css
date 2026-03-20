@@ -244,3 +244,89 @@ body{
         min-height: 60vh;;
     }
 }
+
+@media (max-width: 768px) {
+ 
+    /* Header: stack logo, nav, and nav_right vertically */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+
+    }
+ 
+    /* Reset absolute positioning so nav items flow naturally */
+    .nav {
+        position: static;
+        transform: none;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 7px;
+    }
+ 
+    .nav a {
+        font-size: 7px;
+    }
+ 
+    .nav_right {
+        position: static;
+        transform: none;
+        gap: 10px;
+    }
+ 
+    .nav_right a {
+        font-size: 9px;
+    }
+ 
+    /* Reduce horizontal padding on all main content sections */
+    .customizations_unlocked{
+        padding: 10px 10px;
+        font-size: 15px;
+        min-height: unset;
+    }
+    .engineered_for_excellence,
+    .description,
+    .nylon_selected,
+    .our_mission{
+        padding: 10px 10px;
+        font-size: 9px;
+        min-height: unset;
+    }
+    .our_story_second_paragraph {
+        padding: 10px 10px;
+        font-size: 18px;
+        min-height: unset;
+    }
+ 
+    .description {
+        font-size: 24px;
+    }
+ 
+    /* Stack story section: image on top, text below */
+    .story_section {
+        flex-direction: column;
+    }
+ 
+    .our_story {
+        font-size: 18px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+ 
+    .test_picture {
+        width: 100%;
+        justify-content: center;
+    }
+ 
+    .test_picture img {
+        width: 100%;
+        max-width: 100%;
+    }
+ 
+    /* Scale down the shop now button */
+    .shop_now {
+        font-size: 15px;
+        padding: 6px 9px;
+    }
+}
