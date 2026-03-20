@@ -131,3 +131,71 @@ body{
     align-items: left;
     width: 90%;
 }
+
+
+/* =====================
+   MOBILE STYLES
+   ===================== */
+@media (max-width: 768px) {
+
+    /* Header: stack nav vertically */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 20px;
+        gap: 12px;
+    }
+
+    .nav {
+        position: static;
+        transform: none;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    /* Scale down the Shop All heading */
+    .shop_all {
+        font-size: 32px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        min-height: unset;
+    }
+
+    /* Switch grid to a single column so each product gets its own row */
+    .product_container {
+        grid-template-columns: 1fr;
+        margin: 8px;
+        gap: 16px;
+    }
+
+    /* Shrink product cards to fit the screen */
+    .product {
+        font-size: 22px;
+        padding: 16px 20px;
+        margin: 0;
+        min-height: unset;
+        height: auto;
+    }
+
+    /* Images should never overflow their card */
+    .product_pic img {
+        max-width: 100%;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .details {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .JBL_cover_container {
+        font-size: 20px;
+    }
+}
