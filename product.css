@@ -99,12 +99,47 @@ body{
 
 .gallery{
     font-family: "Michroma", sans-serif;
-    font-weight: 400;
     background-color: rgb(27, 42, 65);
     color: white;
     padding: 20px 90px;
     font-size: 30px;
-    min-height: 60vh;;
+    min-height: fit-content;
+}
+
+.image_container{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 30, 55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.image{
+    font-family: "Michroma", sans-serif;
+    font-size: 35px;
+    display: flex;
+    padding: 20px 40px;
+    margin: 5px 5px;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image a{
+    color:white;
+    text-decoration:none;
+    border: 2px;
+    padding: auto;
+    
+}
+
+.image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .logo h1{
