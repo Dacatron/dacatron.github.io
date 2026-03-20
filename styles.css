@@ -281,8 +281,11 @@ body{
     /* Reduce horizontal padding on all main content sections */
     .customizations_unlocked{
         padding: 10px 10px;
-        font-size: 15px;
+        font-size: 12px;
         min-height: unset;
+    }
+    .customizations_unlocked_description{
+        font-size: 9px;
     }
     .engineered_for_excellence,
     .description,
